@@ -1,0 +1,21 @@
+# PostgreSQL Backup Automation Configuration
+# Copy this file to backup.conf and adjust the values.
+
+# PostgreSQL connection
+PGHOST=localhost
+PGPORT=5432
+PGUSER=postgres
+PGDATABASE=backup_lab
+
+# PostgreSQL binaries
+PGBIN=C:\Program Files\PostgreSQL\18\bin
+
+# Backup locations
+BACKUP_ROOT=C:\Users\Ndayemeye\Documents\postgresql-backup-automation\backups
+LOG_ROOT=C:\Users\Ndayemeye\Documents\postgresql-backup-automation\logs
+
+# Retention
+RETENTION_DAYS=7
+
+# Backup settings
+COMPRESSION_LEVEL=6

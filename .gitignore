@@ -1,0 +1,19 @@
+# Local configuration
+config/backup.conf
+
+# Backup files
+backups/*
+
+# Logs
+logs/*
+
+# Temporary files
+*.tmp
+*.temp
+
+# PowerShell temporary files
+*.ps1.tmp
+
+# Windows
+Thumbs.db
+Desktop.ini
